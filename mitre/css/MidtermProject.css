@@ -1,0 +1,134 @@
+﻿*{
+    box-sizing:border-box;
+}
+
+.navbar{
+    list-style-type: none;
+    margin:0;
+    padding: 10px;
+    padding-right:100px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.navbar li {
+    float: left;
+
+}
+
+  .navbar  li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-left:10px;
+    }
+
+       .navbar li a:hover:not(.active) {
+            background-color:darkgray;
+        }
+
+.active {
+    background-color: #04AA6D;
+}
+#home{
+   
+    margin:40px;
+    margin-top:100px;
+}
+#home .image{
+    background-image:url(img/cyberHacker.jpg);
+    padding:120px;
+   color:white;
+   font-size:x-large;
+}
+#about{
+    background-color:dimgray;
+    color:white;
+    margin:50px;
+}
+#about div{
+    border:3px solid black;
+   margin:100px;
+    border-radius:5px;
+    background-color:black;
+}
+#about h1{
+    text-align:center;
+    padding:10px;
+    font-size:80px;
+    padding-top:100px;
+}
+#about p{
+
+    padding:150px;
+    
+}
+#tests{
+    display:flex;
+    justify-content:space-around;
+}
+#tests .firstTest { 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+    #tests .firstTest a {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+    #details{
+        background-color:antiquewhite;
+        margin:50px;
+       
+    }
+        #details .container {
+            padding: 50px;
+            text-align: center;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+
+        }
+        #details .container div{
+           border:1px solid black;
+           margin:15px;
+           padding:30px;
+           background-color:lavender;
+           border-radius:10px;
+        }
+         
+     #contact {
+            background-color: dimgrey;
+            margin:30px;
+        }
+     #contact div{
+         display:flex;
+         justify-content:center;
+         padding:30px;
+     }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
